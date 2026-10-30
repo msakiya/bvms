@@ -1,0 +1,38 @@
+html {
+    background-color: #FAF8F5;
+    color: #1B2A4A;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+    background: #1B2A4A;
+}
+
+/* Glass Floating Nav Header */
+.brand-nav {
+    background: rgba(250, 248, 245, 0.92);
+    backdrop-filter: blur(16px);
+}
+
+/* Logo ViSTA styling with Gold Accent Square */
+.logo-square {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background-color: #C5A059;
+    margin-bottom: 2px;
+}
+
+@keyframes subtle-float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-4px); }
+}
+.animate-subtle-float {
+    animation: subtle-float 3.5s ease-in-out infinite;
+}
