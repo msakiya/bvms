@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="es" class="scroll-smooth">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BUENA ViSTA INMOBILIARIA | Edificio Ema — San Borja</title>
+    <title>BUENAVISTA INMOBILIARIA | Edificio Ema — San Borja</title>
     <link rel="icon" type="image/png" href="logo.png">
     <link rel="apple-touch-icon" href="logo.png">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -12,7 +13,9 @@
     <!-- Google Fonts: Playfair Display & Plus Jakarta Sans -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
 
     <!-- Custom Styles -->
     <link rel="stylesheet" href="css/styles.css">
@@ -20,19 +23,17 @@
     <!-- App Scripts (includes Tailwind config) -->
     <script src="js/main.js"></script>
 </head>
+
 <body class="bg-cream text-navy font-sans antialiased selection:bg-navy selection:text-cream">
 
     <!-- NAVIGATION HEADER -->
     <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 brand-nav border-b border-navy/10">
         <div class="max-w-7xl mx-auto px-6 lg:px-12 h-20 flex items-center justify-between">
-            
+
             <!-- Logo Emblem in Navy & Gold -->
             <a href="#" class="flex items-center gap-3 group">
-                <img src="logo.png" alt="Buena Vista Inmobiliaria" class="h-14 w-14 object-contain transition-transform duration-300 group-hover:scale-105">
-                <div class="hidden sm:block pl-3 border-l border-navy/15 text-left">
-                    <span class="block text-[10px] uppercase tracking-[0.25em] font-semibold text-navy">INMOBILIARIA</span>
-                    <span class="block text-[8px] uppercase tracking-[0.15em] text-navy/60">Hogares con Alma</span>
-                </div>
+                <img src="logo.png" alt="Buena Vista Inmobiliaria"
+                    class="h-14 w-14 object-contain transition-transform duration-300 group-hover:scale-105">
             </a>
 
             <!-- Menu Links -->
@@ -49,7 +50,8 @@
 
             <!-- Quick Action CTA -->
             <div class="hidden sm:flex items-center">
-                <a href="#contacto" class="px-5 py-2.5 rounded-full bg-navy text-cream hover:bg-gold hover:text-navy transition-all duration-300 text-[11px] uppercase tracking-[0.2em] font-medium shadow-sm">
+                <a href="#contacto"
+                    class="px-5 py-2.5 rounded-full bg-navy text-cream hover:bg-gold hover:text-navy transition-all duration-300 text-[11px] uppercase tracking-[0.2em] font-medium shadow-sm">
                     Agendar Cita
                 </a>
             </div>
@@ -61,91 +63,46 @@
         </div>
 
         <!-- Mobile Navigation Menu -->
-        <div id="mobile-menu" class="hidden md:hidden bg-cream border-b border-navy/10 px-8 py-8 space-y-5 text-xs uppercase tracking-[0.2em] font-semibold">
+        <div id="mobile-menu"
+            class="hidden md:hidden bg-cream border-b border-navy/10 px-8 py-8 space-y-5 text-xs uppercase tracking-[0.2em] font-semibold">
             <a href="#manifiesto" onclick="toggleMenu()" class="block py-2 border-b border-navy/10">Manifiesto</a>
-            <a href="#edificio-ema" onclick="toggleMenu()" class="block py-2 border-b border-navy/10 text-gold flex justify-between items-center">
+            <a href="#edificio-ema" onclick="toggleMenu()"
+                class="block py-2 border-b border-navy/10 text-gold flex justify-between items-center">
                 <span>Edificio Ema (Chacarilla)</span>
                 <span class="text-[9px] bg-navy text-cream px-2 py-0.5 rounded-full">Lanzamiento</span>
             </a>
             <a href="#principios" onclick="toggleMenu()" class="block py-2 border-b border-navy/10">3 Principios</a>
             <a href="#unidades" onclick="toggleMenu()" class="block py-2 border-b border-navy/10">Unidades</a>
             <a href="#contacto" onclick="toggleMenu()" class="block py-2 border-b border-navy/10">Contacto</a>
-            <a href="#contacto" onclick="toggleMenu()" class="block w-full py-3.5 text-center bg-navy text-cream rounded-full mt-4">
+            <a href="#contacto" onclick="toggleMenu()"
+                class="block w-full py-3.5 text-center bg-navy text-cream rounded-full mt-4">
                 Solicitar Dossier
             </a>
         </div>
     </header>
 
     <!-- HERO SECTION -->
-    <section class="min-h-screen pt-28 pb-20 flex items-center relative overflow-hidden bg-cream">
+    <section class="min-h-screen pt-28 pb-20 lg:pt-20 lg:pb-8 flex items-center relative overflow-hidden bg-cream">
         <div class="max-w-7xl mx-auto px-6 lg:px-12 w-full">
-            
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
-                
-                <!-- Left Narrative Column -->
-                <div class="lg:col-span-7 space-y-8">
-                    
-                    <div class="inline-flex items-center gap-3">
-                        <span class="w-8 h-[1px] bg-navy"></span>
-                        <span class="text-[11px] font-bold tracking-[0.25em] text-navy/70 uppercase">Chacarilla del Estanque • San Borja</span>
-                    </div>
 
-                    <h1 class="text-4xl sm:text-6xl lg:text-7xl font-serif font-normal text-navy leading-[1.08] tracking-tight">
-                        El lugar donde pertenece <br>
-                        tu corazón. <br>
-                        <span class="italic font-serif text-gold">Donde echas raíces.</span>
-                    </h1>
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-8 items-center">
 
-                    <div class="p-6 rounded-2xl bg-cream-soft border-l-2 border-gold space-y-2">
-                        <p class="text-navy text-base sm:text-lg font-light leading-relaxed">
-                            En <strong class="font-semibold text-navy">Buena Vista</strong> hacemos edificios pequeños y bien ubicados en Lima. No armamos productos inmobiliarios sin alma; construimos hogares para quienes buscan vivir en paz, con la tranquilidad de las cosas bien hechas.
-                        </p>
-                        <p class="text-xs text-navy/70 italic font-light">
-                            "Espacios flexibles que se adaptan a tu ritmo y a tu forma de vida, nunca al revés."
-                        </p>
-                    </div>
-
-                    <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-2">
-                        <a href="#edificio-ema" class="px-8 py-4 rounded-full bg-navy text-cream hover:bg-navy-light text-xs uppercase tracking-[0.2em] font-medium text-center transition-all duration-300 shadow-lg">
-                            Conocer Edificio Ema
-                        </a>
-                        <a href="#contacto" class="px-8 py-4 rounded-full border border-navy/30 hover:border-navy text-navy text-xs uppercase tracking-[0.2em] font-medium text-center transition-all duration-300">
-                            Cotizar con Asesor
-                        </a>
-                    </div>
-
-                    <!-- Key Spec Highlights -->
-                    <div class="grid grid-cols-3 gap-6 pt-8 border-t border-navy/10">
-                        <div>
-                            <div class="text-2xl sm:text-3xl font-serif text-navy">336 - 338</div>
-                            <div class="text-[10px] uppercase tracking-[0.15em] text-navy/60 mt-1">Av. Buena Vista</div>
-                        </div>
-                        <div>
-                            <div class="text-2xl sm:text-3xl font-serif text-navy">10</div>
-                            <div class="text-[10px] uppercase tracking-[0.15em] text-navy/60 mt-1">Hogares Exclusivos</div>
-                        </div>
-                        <div>
-                            <div class="text-2xl sm:text-3xl font-serif text-navy">Furusato</div>
-                            <div class="text-[10px] uppercase tracking-[0.15em] text-navy/60 mt-1">Concepto Central</div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <!-- Right Visual Column (Matching Concept Images) -->
-                <div class="lg:col-span-5">
+                <!-- Left Visual Column (Now the Main Image) -->
+                <div class="order-1 lg:order-1 lg:col-span-8">
                     <div class="relative group">
-                        
+
                         <!-- Image Container with Architectural Frame -->
                         <div class="rounded-2xl overflow-hidden bg-navy/5 shadow-2xl border border-navy/15 relative">
-                            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=80" 
-                                 alt="Luz natural y terrazos en Edificio Ema" 
-                                 class="w-full h-[520px] object-cover filter contrast-[1.03] transition-all duration-700 group-hover:scale-105">
-                            <div class="absolute inset-0 bg-gradient-to-t from-navy/60 via-transparent to-transparent"></div>
+                            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1400&q=80"
+                                alt="Luz natural y terrazos en Edificio Ema"
+                                class="w-full h-[420px] sm:h-[520px] lg:h-[calc(80vh-5.6rem)] object-cover filter contrast-[1.03] transition-all duration-700 group-hover:scale-105">
+                            <div class="absolute inset-0 bg-gradient-to-t from-navy/60 via-transparent to-transparent">
+                            </div>
                         </div>
 
                         <!-- Entrance Plaque Box (Recreated from Manifesto Image) -->
-                        <div class="absolute -bottom-8 -left-6 bg-navy text-cream p-6 rounded-xl shadow-2xl max-w-[260px] border border-navy/30">
+                        <div
+                            class="absolute -bottom-8 -left-6 bg-navy text-cream p-6 rounded-xl shadow-2xl max-w-[260px] border border-navy/30">
                             <div class="flex items-center justify-between border-b border-cream/10 pb-2 mb-2">
                                 <span class="text-xl font-serif text-gold font-semibold">336</span>
                                 <span class="text-[9px] uppercase tracking-[0.2em] text-cream/60">San Borja</span>
@@ -158,6 +115,63 @@
                     </div>
                 </div>
 
+                <!-- Right Narrative Column (Compact) -->
+                <div class="order-2 lg:order-2 lg:col-span-4 space-y-5">
+
+                    <div class="inline-flex items-center gap-3">
+                        <span class="w-8 h-[1px] bg-navy"></span>
+                        <span class="text-[11px] font-bold tracking-[0.25em] text-navy/70 uppercase">Chacarilla del
+                            Estanque • San Borja</span>
+                    </div>
+
+                    <h1
+                        class="text-2xl sm:text-3xl lg:text-4xl font-serif font-normal text-navy leading-[1.12] tracking-tight">
+                        El lugar donde pertenece <br>
+                        tu corazón. <br>
+                        <span class="italic font-serif text-gold">Donde echas raíces.</span>
+                    </h1>
+
+                    <div class="p-4 rounded-2xl bg-cream-soft border-l-2 border-gold space-y-2">
+                        <p class="text-navy text-xs sm:text-sm font-light leading-relaxed">
+                            En <strong class="font-semibold text-navy">Buena Vista</strong> hacemos edificios pequeños y
+                            bien ubicados en Lima. No armamos productos inmobiliarios sin alma; construimos hogares para
+                            quienes buscan vivir en paz, con la tranquilidad de las cosas bien hechas.
+                        </p>
+                        <p class="text-xs text-navy/70 italic font-light">
+                            "Espacios flexibles que se adaptan a tu ritmo y a tu forma de vida, nunca al revés."
+                        </p>
+                    </div>
+
+                    <div class="flex flex-col gap-2.5 pt-1">
+                        <a href="#edificio-ema"
+                            class="px-5 py-3 rounded-full bg-navy text-cream hover:bg-navy-light text-[11px] uppercase tracking-[0.2em] font-medium text-center transition-all duration-300 shadow-lg">
+                            Conocer Edificio Ema
+                        </a>
+                        <a href="#contacto"
+                            class="px-5 py-3 rounded-full border border-navy/30 hover:border-navy text-navy text-[11px] uppercase tracking-[0.2em] font-medium text-center transition-all duration-300">
+                            Cotizar con Asesor
+                        </a>
+                    </div>
+
+                    <!-- Key Spec Highlights -->
+                    <div class="grid grid-cols-3 gap-3 pt-5 border-t border-navy/10">
+                        <div>
+                            <div class="text-base sm:text-lg font-serif text-navy">336-338</div>
+                            <div class="text-[9px] uppercase tracking-[0.1em] text-navy/60 mt-1">Av. Buena Vista</div>
+                        </div>
+                        <div>
+                            <div class="text-base sm:text-lg font-serif text-navy">10</div>
+                            <div class="text-[9px] uppercase tracking-[0.1em] text-navy/60 mt-1">Hogares Exclusivos
+                            </div>
+                        </div>
+                        <div>
+                            <div class="text-base sm:text-lg font-serif text-navy">Furusato</div>
+                            <div class="text-[9px] uppercase tracking-[0.1em] text-navy/60 mt-1">Concepto Central</div>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
 
         </div>
@@ -166,25 +180,30 @@
     <!-- SECTION 1: MANIFIESTO Y CONCEPTO FURUSATO -->
     <section id="manifiesto" class="py-24 bg-navy text-cream relative overflow-hidden">
         <div class="max-w-7xl mx-auto px-6 lg:px-12 relative z-10">
-            
+
             <div class="max-w-3xl mb-16">
-                <span class="text-gold text-[11px] font-bold uppercase tracking-[0.25em] block mb-2">Manifiesto de Marca & Concepto</span>
+                <span class="text-gold text-[11px] font-bold uppercase tracking-[0.25em] block mb-2">Manifiesto de Marca
+                    & Concepto</span>
                 <h2 class="text-3xl sm:text-5xl font-serif text-cream leading-tight mb-6">
                     Furusato: <br>
                     <span class="italic font-serif text-gold">Donde pertenece tu corazón</span>
                 </h2>
                 <p class="text-cream/80 text-base sm:text-lg font-light leading-relaxed">
-                    Para quienes buscan una vida de belleza sutil y discreta, prefiriendo la sencillez honesta sobre la ostentación y un lugar donde echar raíces para siempre.
+                    Para quienes buscan una vida de belleza sutil y discreta, prefiriendo la sencillez honesta sobre la
+                    ostentación y un lugar donde echar raíces para siempre.
                 </p>
             </div>
 
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-                
+
                 <!-- Left Quote Card -->
                 <div class="lg:col-span-6 space-y-6 bg-navy-light/60 p-8 sm:p-10 rounded-2xl border border-cream/10">
                     <h3 class="text-xl font-serif text-gold">La idea central y el lienzo en blanco</h3>
                     <p class="text-cream/80 text-sm leading-relaxed font-light">
-                        Un centro para las funciones domésticas y un espacio de vida familiar para echar raíces. Un lienzo en blanco donde el edificio proporciona el escenario, no el guion: <strong class="text-cream font-medium">un lugar que se acomoda a ti, y no uno donde tú te acomodas a él.</strong>
+                        Un centro para las funciones domésticas y un espacio de vida familiar para echar raíces. Un
+                        lienzo en blanco donde el edificio proporciona el escenario, no el guion: <strong
+                            class="text-cream font-medium">un lugar que se acomoda a ti, y no uno donde tú te acomodas a
+                            él.</strong>
                     </p>
 
                     <ul class="space-y-3 pt-2 text-xs text-cream/70 font-light border-t border-cream/10">
@@ -198,11 +217,13 @@
                         </li>
                         <li class="flex items-start gap-3">
                             <span class="w-1.5 h-1.5 rounded-full bg-gold mt-1.5 flex-shrink-0"></span>
-                            <span>El primer café de la mañana, la frescura de la brisa en la terraza y el sonido de las cuculíes limeñas.</span>
+                            <span>El primer café de la mañana, la frescura de la brisa en la terraza y el sonido de las
+                                cuculíes limeñas.</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <span class="w-1.5 h-1.5 rounded-full bg-gold mt-1.5 flex-shrink-0"></span>
-                            <span>Construyes recuerdos cotidianos conectado a la naturaleza de los jardines de molles.</span>
+                            <span>Construyes recuerdos cotidianos conectado a la naturaleza de los jardines de
+                                molles.</span>
                         </li>
                     </ul>
                 </div>
@@ -210,14 +231,12 @@
                 <!-- Right Visual Gallery Grid -->
                 <div class="lg:col-span-6 grid grid-cols-2 gap-4">
                     <div class="rounded-xl overflow-hidden border border-cream/10 h-64 bg-cream/10">
-                        <img src="https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=800&q=80" 
-                             alt="Materiales honestos maderas y concreto" 
-                             class="w-full h-full object-cover">
+                        <img src="https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=800&q=80"
+                            alt="Materiales honestos maderas y concreto" class="w-full h-full object-cover">
                     </div>
                     <div class="rounded-xl overflow-hidden border border-cream/10 h-64 bg-cream/10 mt-6">
-                        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80" 
-                             alt="Terraza con luz matutina" 
-                             class="w-full h-full object-cover">
+                        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80"
+                            alt="Terraza con luz matutina" class="w-full h-full object-cover">
                     </div>
                 </div>
 
@@ -229,53 +248,70 @@
     <!-- SECTION 2: LOS 3 PRINCIPIOS DEL PROYECTO -->
     <section id="principios" class="py-24 bg-cream-soft border-b border-navy/10">
         <div class="max-w-7xl mx-auto px-6 lg:px-12">
-            
+
             <div class="text-center max-w-2xl mx-auto mb-16">
-                <span class="text-[11px] font-bold tracking-[0.25em] text-navy/60 uppercase block mb-2">Filosofía Habitable</span>
+                <span class="text-[11px] font-bold tracking-[0.25em] text-navy/60 uppercase block mb-2">Filosofía
+                    Habitable</span>
                 <h2 class="text-3xl sm:text-5xl font-serif text-navy">Los 3 Principios de Ema</h2>
                 <p class="text-navy/70 text-sm sm:text-base font-light mt-3">
-                    Un espacio donde la naturaleza y la libertad se entrelazan para darte la oportunidad de construir tu propia historia.
+                    Un espacio donde la naturaleza y la libertad se entrelazan para darte la oportunidad de construir tu
+                    propia historia.
                 </p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                
+
                 <!-- Principle 1: Raíces -->
-                <div class="bg-cream p-8 sm:p-10 rounded-2xl border border-navy/10 shadow-sm hover:shadow-md transition-all group">
-                    <div class="w-12 h-12 rounded-xl bg-navy text-gold flex items-center justify-center text-xl mb-6 group-hover:scale-110 transition-transform">
+                <div
+                    class="bg-cream p-8 sm:p-10 rounded-2xl border border-navy/10 shadow-sm hover:shadow-md transition-all group">
+                    <div
+                        class="w-12 h-12 rounded-xl bg-navy text-gold flex items-center justify-center text-xl mb-6 group-hover:scale-110 transition-transform">
                         <i class="fa-solid fa-tree"></i>
                     </div>
-                    <span class="text-[10px] uppercase tracking-[0.2em] font-semibold text-gold block mb-1">Principio 01</span>
+                    <span class="text-[10px] uppercase tracking-[0.2em] font-semibold text-gold block mb-1">Principio
+                        01</span>
                     <h3 class="text-2xl font-serif text-navy mb-3">Raíces</h3>
-                    <p class="text-xs uppercase tracking-wider text-navy/60 font-semibold mb-4">Un lugar donde construir historia</p>
+                    <p class="text-xs uppercase tracking-wider text-navy/60 font-semibold mb-4">Un lugar donde construir
+                        historia</p>
                     <p class="text-navy/70 text-sm font-light leading-relaxed">
-                        Con los años, el espacio deja de ser una simple propiedad para convertirse en tu verdadero hogar. Un lugar sólido con la tranquilidad de las cosas bien construidas.
+                        Con los años, el espacio deja de ser una simple propiedad para convertirse en tu verdadero
+                        hogar. Un lugar sólido con la tranquilidad de las cosas bien construidas.
                     </p>
                 </div>
 
                 <!-- Principle 2: Libertad -->
-                <div class="bg-cream p-8 sm:p-10 rounded-2xl border border-navy/10 shadow-sm hover:shadow-md transition-all group">
-                    <div class="w-12 h-12 rounded-xl bg-navy text-gold flex items-center justify-center text-xl mb-6 group-hover:scale-110 transition-transform">
+                <div
+                    class="bg-cream p-8 sm:p-10 rounded-2xl border border-navy/10 shadow-sm hover:shadow-md transition-all group">
+                    <div
+                        class="w-12 h-12 rounded-xl bg-navy text-gold flex items-center justify-center text-xl mb-6 group-hover:scale-110 transition-transform">
                         <i class="fa-solid fa-[#C5A059] fa-compass-drafting"></i>
                     </div>
-                    <span class="text-[10px] uppercase tracking-[0.2em] font-semibold text-gold block mb-1">Principio 02</span>
+                    <span class="text-[10px] uppercase tracking-[0.2em] font-semibold text-gold block mb-1">Principio
+                        02</span>
                     <h3 class="text-2xl font-serif text-navy mb-3">Libertad</h3>
-                    <p class="text-xs uppercase tracking-wider text-navy/60 font-semibold mb-4">Cada familia decide cómo vivir</p>
+                    <p class="text-xs uppercase tracking-wider text-navy/60 font-semibold mb-4">Cada familia decide cómo
+                        vivir</p>
                     <p class="text-navy/70 text-sm font-light leading-relaxed">
-                        Plantas eficientes y espacios flexibles que pueden cambiar con el tiempo. El departamento se adapta a tu ritmo de vida y nunca al revés.
+                        Plantas eficientes y espacios flexibles que pueden cambiar con el tiempo. El departamento se
+                        adapta a tu ritmo de vida y nunca al revés.
                     </p>
                 </div>
 
                 <!-- Principle 3: Naturaleza -->
-                <div class="bg-cream p-8 sm:p-10 rounded-2xl border border-navy/10 shadow-sm hover:shadow-md transition-all group">
-                    <div class="w-12 h-12 rounded-xl bg-navy text-gold flex items-center justify-center text-xl mb-6 group-hover:scale-110 transition-transform">
+                <div
+                    class="bg-cream p-8 sm:p-10 rounded-2xl border border-navy/10 shadow-sm hover:shadow-md transition-all group">
+                    <div
+                        class="w-12 h-12 rounded-xl bg-navy text-gold flex items-center justify-center text-xl mb-6 group-hover:scale-110 transition-transform">
                         <i class="fa-solid fa-sun"></i>
                     </div>
-                    <span class="text-[10px] uppercase tracking-[0.2em] font-semibold text-gold block mb-1">Principio 03</span>
+                    <span class="text-[10px] uppercase tracking-[0.2em] font-semibold text-gold block mb-1">Principio
+                        03</span>
                     <h3 class="text-2xl font-serif text-navy mb-3">Naturaleza</h3>
-                    <p class="text-xs uppercase tracking-wider text-navy/60 font-semibold mb-4">El exterior forma parte de la experiencia</p>
+                    <p class="text-xs uppercase tracking-wider text-navy/60 font-semibold mb-4">El exterior forma parte
+                        de la experiencia</p>
                     <p class="text-navy/70 text-sm font-light leading-relaxed">
-                        Jardines de molles que disuelven el ritmo de la ciudad. La luz como materia viva atravesando terrazos, madera y concreto visto.
+                        Jardines de molles que disuelven el ritmo de la ciudad. La luz como materia viva atravesando
+                        terrazos, madera y concreto visto.
                     </p>
                 </div>
 
@@ -287,9 +323,10 @@
     <!-- SECTION 3: FEATURED PROJECT — EDIFICIO EMA -->
     <section id="edificio-ema" class="py-24 bg-cream relative">
         <div class="max-w-7xl mx-auto px-6 lg:px-12">
-            
+
             <div class="max-w-3xl mb-16">
-                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-navy/5 border border-navy/10 text-[10px] font-bold tracking-widest text-navy uppercase mb-3">
+                <div
+                    class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-navy/5 border border-navy/10 text-[10px] font-bold tracking-widest text-navy uppercase mb-3">
                     <span class="w-1.5 h-1.5 rounded-full bg-gold"></span>
                     <span>Lanzamiento Preventa 2026</span>
                 </div>
@@ -297,54 +334,62 @@
                     Edificio Ema
                 </h2>
                 <p class="text-navy/70 text-base font-light leading-relaxed">
-                    Ubicado en Av. Buena Vista 336 - 338, Chacarilla del Estanque, San Borja. Proyecto residencial boutique diseñado para solo 10 familias que buscan privacidad y atemporalidad.
+                    Ubicado en Av. Buena Vista 336 - 338, Chacarilla del Estanque, San Borja. Proyecto residencial
+                    boutique diseñado para solo 10 familias que buscan privacidad y atemporalidad.
                 </p>
             </div>
 
             <!-- Materiality Showcase Cards Grid -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
-                
+
                 <div class="p-6 rounded-2xl bg-cream-soft border border-navy/10">
                     <div class="text-gold text-2xl mb-3"><i class="fa-solid fa-archway"></i></div>
                     <h4 class="text-sm font-serif font-medium text-navy mb-1">Umbral & Transición</h4>
-                    <p class="text-xs text-navy/70 font-light">Ingreso sobrio de escala humana e iluminación cálida (Ciudad → Edificio → Hogar).</p>
+                    <p class="text-xs text-navy/70 font-light">Ingreso sobrio de escala humana e iluminación cálida
+                        (Ciudad → Edificio → Hogar).</p>
                 </div>
 
                 <div class="p-6 rounded-2xl bg-cream-soft border border-navy/10">
                     <div class="text-gold text-2xl mb-3"><i class="fa-solid fa-cube"></i></div>
                     <h4 class="text-sm font-serif font-medium text-navy mb-1">Concreto Visto</h4>
-                    <p class="text-xs text-navy/70 font-light">Expresado con franqueza sin revestimientos artificiales, combinado con maderas vivas.</p>
+                    <p class="text-xs text-navy/70 font-light">Expresado con franqueza sin revestimientos artificiales,
+                        combinado con maderas vivas.</p>
                 </div>
 
                 <div class="p-6 rounded-2xl bg-cream-soft border border-navy/10">
                     <div class="text-gold text-2xl mb-3"><i class="fa-solid fa-border-all"></i></div>
                     <h4 class="text-sm font-serif font-medium text-navy mb-1">Terrazos & Detalles</h4>
-                    <p class="text-xs text-navy/70 font-light">El lujo se experimenta en el tirador de ingreso y en el encuentro entre pavimentos.</p>
+                    <p class="text-xs text-navy/70 font-light">El lujo se experimenta en el tirador de ingreso y en el
+                        encuentro entre pavimentos.</p>
                 </div>
 
                 <div class="p-6 rounded-2xl bg-cream-soft border border-navy/10">
                     <div class="text-gold text-2xl mb-3"><i class="fa-solid fa-plant-wilt"></i></div>
                     <h4 class="text-sm font-serif font-medium text-navy mb-1">Jardines de Molles</h4>
-                    <p class="text-xs text-navy/70 font-light">Vegetación nativa que atenúa el ruido urbano y refresca las terrazas.</p>
+                    <p class="text-xs text-navy/70 font-light">Vegetación nativa que atenúa el ruido urbano y refresca
+                        las terrazas.</p>
                 </div>
 
             </div>
 
             <!-- Main Interactive Unit Selector -->
             <div id="unidades" class="bg-navy text-cream rounded-2xl p-8 sm:p-12 shadow-2xl border border-navy-light">
-                
-                <div class="mb-10 pb-6 border-b border-cream/10 flex flex-col md:flex-row md:items-end justify-between gap-4">
+
+                <div
+                    class="mb-10 pb-6 border-b border-cream/10 flex flex-col md:flex-row md:items-end justify-between gap-4">
                     <div>
-                        <span class="text-gold text-[10px] font-bold uppercase tracking-[0.2em] block mb-1">Inventario Edificio Ema</span>
+                        <span class="text-gold text-[10px] font-bold uppercase tracking-[0.2em] block mb-1">Inventario
+                            Edificio Ema</span>
                         <h3 class="text-2xl sm:text-4xl font-serif text-cream">Explorar las 10 Residencias</h3>
                     </div>
                     <p class="text-cream/70 text-xs sm:text-sm max-w-md font-light">
-                        Elige una unidad para revisar sus áreas, plantas eficientes y solicitar el dossier informativo directo al asesor.
+                        Elige una unidad para revisar sus áreas, plantas eficientes y solicitar el dossier informativo
+                        directo al asesor.
                     </p>
                 </div>
 
                 <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-                    
+
                     <!-- Left List of 10 Units -->
                     <div class="lg:col-span-5 space-y-2 max-h-[480px] overflow-y-auto pr-2">
                         <div id="units-list" class="space-y-2">
@@ -353,69 +398,91 @@
                     </div>
 
                     <!-- Right Selected Unit Detail Card -->
-                    <div class="lg:col-span-7 bg-navy-dark/80 p-8 rounded-xl border border-cream/10 flex flex-col justify-between min-h-[460px]">
+                    <div
+                        class="lg:col-span-7 bg-navy-dark/80 p-8 rounded-xl border border-cream/10 flex flex-col justify-between min-h-[460px]">
                         <div>
                             <div class="flex items-center justify-between border-b border-cream/10 pb-4 mb-6">
                                 <div>
-                                    <span id="unit-badge" class="text-[10px] text-gold uppercase tracking-[0.2em] font-semibold block">Piso 1 • Garden Residence</span>
-                                    <h4 id="unit-title" class="text-2xl sm:text-3xl font-serif text-cream mt-1">Departamento 101</h4>
+                                    <span id="unit-badge"
+                                        class="text-[10px] text-gold uppercase tracking-[0.2em] font-semibold block">Piso
+                                        1 • Garden Residence</span>
+                                    <h4 id="unit-title" class="text-2xl sm:text-3xl font-serif text-cream mt-1">
+                                        Departamento 101</h4>
                                 </div>
                                 <div class="text-right">
-                                    <span class="text-[10px] text-cream/50 uppercase tracking-[0.15em] block">Área Total</span>
+                                    <span class="text-[10px] text-cream/50 uppercase tracking-[0.15em] block">Área
+                                        Total</span>
                                     <span id="unit-area" class="text-2xl font-serif text-gold">185 m²</span>
                                 </div>
                             </div>
 
                             <!-- Floor Plan Schema Graphic -->
                             <div class="bg-navy/60 rounded-xl p-6 border border-cream/10 mb-6 text-center relative">
-                                <span class="text-[9px] font-mono uppercase tracking-widest text-cream/40 absolute top-3 right-3">Lienzo Habitable</span>
-                                
-                                <svg class="w-full h-32 text-cream mx-auto" viewBox="0 0 400 130" fill="none" stroke="currentColor" stroke-width="1.2">
-                                    <rect x="10" y="10" width="380" height="110" rx="4" stroke="#4B5563" stroke-dasharray="3 3"/>
-                                    <rect x="25" y="25" width="110" height="50" stroke="#C5A059"/>
-                                    <text x="80" y="54" fill="#C5A059" text-anchor="middle" font-size="9" font-family="sans-serif">Dorm Principal</text>
+                                <span
+                                    class="text-[9px] font-mono uppercase tracking-widest text-cream/40 absolute top-3 right-3">Lienzo
+                                    Habitable</span>
 
-                                    <rect x="145" y="25" width="120" height="50" stroke="#FFFFFF"/>
-                                    <text x="205" y="54" fill="#FFFFFF" text-anchor="middle" font-size="9" font-family="sans-serif">Estar / Comedor</text>
+                                <svg class="w-full h-32 text-cream mx-auto" viewBox="0 0 400 130" fill="none"
+                                    stroke="currentColor" stroke-width="1.2">
+                                    <rect x="10" y="10" width="380" height="110" rx="4" stroke="#4B5563"
+                                        stroke-dasharray="3 3" />
+                                    <rect x="25" y="25" width="110" height="50" stroke="#C5A059" />
+                                    <text x="80" y="54" fill="#C5A059" text-anchor="middle" font-size="9"
+                                        font-family="sans-serif">Dorm Principal</text>
 
-                                    <rect x="275" y="25" width="100" height="50" stroke="#2D4A3E"/>
-                                    <text x="325" y="54" fill="#E2C78D" text-anchor="middle" font-size="9" font-family="sans-serif">Jardín de Molles</text>
+                                    <rect x="145" y="25" width="120" height="50" stroke="#FFFFFF" />
+                                    <text x="205" y="54" fill="#FFFFFF" text-anchor="middle" font-size="9"
+                                        font-family="sans-serif">Estar / Comedor</text>
 
-                                    <rect x="25" y="82" width="165" height="28" stroke="#6B7280"/>
-                                    <text x="107" y="100" fill="#9CA3AF" text-anchor="middle" font-size="8" font-family="sans-serif">Cocina & Servicios</text>
+                                    <rect x="275" y="25" width="100" height="50" stroke="#2D4A3E" />
+                                    <text x="325" y="54" fill="#E2C78D" text-anchor="middle" font-size="9"
+                                        font-family="sans-serif">Jardín de Molles</text>
 
-                                    <rect x="200" y="82" width="175" height="28" stroke="#6B7280"/>
-                                    <text x="287" y="100" fill="#9CA3AF" text-anchor="middle" font-size="8" font-family="sans-serif">Dormitorios Secundarios</text>
+                                    <rect x="25" y="82" width="165" height="28" stroke="#6B7280" />
+                                    <text x="107" y="100" fill="#9CA3AF" text-anchor="middle" font-size="8"
+                                        font-family="sans-serif">Cocina & Servicios</text>
+
+                                    <rect x="200" y="82" width="175" height="28" stroke="#6B7280" />
+                                    <text x="287" y="100" fill="#9CA3AF" text-anchor="middle" font-size="8"
+                                        font-family="sans-serif">Dormitorios Secundarios</text>
                                 </svg>
 
                                 <p id="unit-detail" class="text-xs text-cream/70 mt-3 italic font-light">
-                                    * Amplia terraza jardín, dormitorio principal con luz matutina y vista a la vegetación nativa.
+                                    * Amplia terraza jardín, dormitorio principal con luz matutina y vista a la
+                                    vegetación nativa.
                                 </p>
                             </div>
 
                             <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 text-center mb-6">
                                 <div class="bg-navy/40 p-3 rounded-lg border border-cream/10">
                                     <span class="text-[9px] text-cream/50 uppercase block">Dormitorios</span>
-                                    <span id="unit-dorms" class="font-semibold text-cream text-xs mt-0.5 block">3 Dorms</span>
+                                    <span id="unit-dorms" class="font-semibold text-cream text-xs mt-0.5 block">3
+                                        Dorms</span>
                                 </div>
                                 <div class="bg-navy/40 p-3 rounded-lg border border-cream/10">
                                     <span class="text-[9px] text-cream/50 uppercase block">Baños</span>
-                                    <span id="unit-baths" class="font-semibold text-cream text-xs mt-0.5 block">3.5 Baños</span>
+                                    <span id="unit-baths" class="font-semibold text-cream text-xs mt-0.5 block">3.5
+                                        Baños</span>
                                 </div>
                                 <div class="bg-navy/40 p-3 rounded-lg border border-cream/10">
                                     <span class="text-[9px] text-cream/50 uppercase block">Techada</span>
-                                    <span id="unit-techada" class="font-semibold text-cream text-xs mt-0.5 block">145 m²</span>
+                                    <span id="unit-techada" class="font-semibold text-cream text-xs mt-0.5 block">145
+                                        m²</span>
                                 </div>
                                 <div class="bg-navy/40 p-3 rounded-lg border border-cream/10">
                                     <span class="text-[9px] text-cream/50 uppercase block">Área Libre</span>
-                                    <span id="unit-libre" class="font-semibold text-cream text-xs mt-0.5 block">40 m²</span>
+                                    <span id="unit-libre" class="font-semibold text-cream text-xs mt-0.5 block">40
+                                        m²</span>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="pt-4 border-t border-cream/10 flex flex-col sm:flex-row items-center justify-between gap-4">
-                            <span class="text-xs text-cream/70 font-light"><i class="fa-solid fa-car text-gold mr-1"></i> Incluye Cocheras Subterráneas</span>
-                            <a href="#contacto" onclick="selectUnitForForm()" class="w-full sm:w-auto px-6 py-3 rounded-full bg-gold hover:bg-gold-dark text-navy font-semibold text-xs uppercase tracking-[0.15em] text-center transition-all">
+                        <div
+                            class="pt-4 border-t border-cream/10 flex flex-col sm:flex-row items-center justify-between gap-4">
+                            <span class="text-xs text-cream/70 font-light"><i
+                                    class="fa-solid fa-car text-gold mr-1"></i> Incluye Cocheras Subterráneas</span>
+                            <a href="#contacto" onclick="selectUnitForForm()"
+                                class="w-full sm:w-auto px-6 py-3 rounded-full bg-gold hover:bg-gold-dark text-navy font-semibold text-xs uppercase tracking-[0.15em] text-center transition-all">
                                 Cotizar <span id="btn-unit-id">Dpto 101</span>
                             </a>
                         </div>
@@ -431,14 +498,17 @@
     <!-- SECTION 4: LOCATION & LIFESTYLE -->
     <section class="py-24 bg-cream-soft border-t border-navy/10">
         <div class="max-w-7xl mx-auto px-6 lg:px-12">
-            
+
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-                
+
                 <div class="lg:col-span-5 space-y-6">
-                    <span class="text-gold text-[10px] font-bold uppercase tracking-[0.2em] block">Ubicación & Vida en Familia</span>
+                    <span class="text-gold text-[10px] font-bold uppercase tracking-[0.2em] block">Ubicación & Vida en
+                        Familia</span>
                     <h3 class="text-2xl sm:text-4xl font-serif text-navy">Chacarilla del Estanque</h3>
                     <p class="text-navy/70 text-sm leading-relaxed font-light">
-                        San Borja destaca por sus avenidas arboladas y su ritmo pausado. Edificio Ema se inserta con discreción para ofrecer la cercanía ideal a colegios, parques y zonas para salir a correr o pasear en bicicleta.
+                        San Borja destaca por sus avenidas arboladas y su ritmo pausado. Edificio Ema se inserta con
+                        discreción para ofrecer la cercanía ideal a colegios, parques y zonas para salir a correr o
+                        pasear en bicicleta.
                     </p>
 
                     <div class="space-y-3 pt-2 text-xs text-navy/80 font-light">
@@ -457,20 +527,20 @@
                     </div>
 
                     <div class="pt-4">
-                        <a href="https://maps.google.com/?cid=17652503187787182087" target="_blank" rel="noopener noreferrer" class="text-xs uppercase tracking-[0.15em] text-navy font-semibold underline hover:text-gold transition-colors">
-                            Ver Av. Buena Vista 336 en Google Maps <i class="fa-solid fa-arrow-up-right-from-square text-[10px] ml-1"></i>
+                        <a href="https://maps.google.com/?cid=17652503187787182087" target="_blank"
+                            rel="noopener noreferrer"
+                            class="text-xs uppercase tracking-[0.15em] text-navy font-semibold underline hover:text-gold transition-colors">
+                            Ver Av. Buena Vista 336 en Google Maps <i
+                                class="fa-solid fa-arrow-up-right-from-square text-[10px] ml-1"></i>
                         </a>
                     </div>
                 </div>
 
-                <div class="lg:col-span-7 rounded-2xl overflow-hidden border border-navy/10 h-80 sm:h-[380px] shadow-lg bg-navy/5">
-                    <iframe 
-                        title="Ubicacion Edificio Ema Buena Vista San Borja"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.12345!2d-76.985!3d-12.105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c7bd93b7c755%3A0xf4fa4b1f50817007!2sAv.%20Buena%20Vista%20338%2C%20San%20Borja%2015037!5e0!3m2!1ses!2spe!4v1680000000000!5m2!1ses!2spe" 
-                        width="100%" 
-                        height="100%" 
-                        style="border:0; filter: contrast(95%);" 
-                        allowfullscreen="" 
+                <div
+                    class="lg:col-span-7 rounded-2xl overflow-hidden border border-navy/10 h-80 sm:h-[380px] shadow-lg bg-navy/5">
+                    <iframe title="Ubicacion Edificio Ema Buena Vista San Borja"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.12345!2d-76.985!3d-12.105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c7bd93b7c755%3A0xf4fa4b1f50817007!2sAv.%20Buena%20Vista%20338%2C%20San%20Borja%2015037!5e0!3m2!1ses!2spe!4v1680000000000!5m2!1ses!2spe"
+                        width="100%" height="100%" style="border:0; filter: contrast(95%);" allowfullscreen=""
                         loading="lazy">
                     </iframe>
                 </div>
@@ -480,148 +550,132 @@
         </div>
     </section>
 
-    <!-- SECTION 5: CONTACTO & ASESOR INMOBILIARIO -->
+    <!-- SECTION 5: CONTACTO -->
     <section id="contacto" class="py-24 bg-cream relative">
         <div class="max-w-7xl mx-auto px-6 lg:px-12">
-            
-            <div class="max-w-3xl mb-16">
-                <span class="text-[11px] font-bold tracking-[0.25em] text-navy/60 uppercase block mb-2">Contacto Personalizado</span>
+
+            <div class="max-w-3xl mx-auto mb-12 text-center">
+                <span class="text-[11px] font-bold tracking-[0.25em] text-navy/60 uppercase block mb-2">Contacto
+                    Personalizado</span>
                 <h2 class="text-3xl sm:text-5xl font-serif text-navy mb-4">Escribirnos o Agendar una Cita</h2>
                 <p class="text-navy/70 text-sm sm:text-base font-light">
-                    Déjanos tus datos para recibir la brochure ejecutiva en PDF, planos acotados y la tabla de precios oficial para Edificio Ema.
+                    Déjanos tus datos para recibir la brochure ejecutiva en PDF, planos acotados y la tabla de precios
+                    oficial para Edificio Ema.
                 </p>
             </div>
 
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-                
+            <div class="max-w-3xl mx-auto space-y-8">
+
                 <!-- CONTACT FORM -->
-                <div class="lg:col-span-7 bg-cream-card p-8 sm:p-12 rounded-2xl border border-navy/10 shadow-sm">
+                <div class="bg-cream-card p-8 sm:p-12 rounded-2xl border border-navy/10 shadow-sm">
                     <form id="contact-form" onsubmit="submitForm(event)" class="space-y-6">
-                        
+
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                             <div>
-                                <label for="nombres" class="block text-[11px] font-bold uppercase tracking-[0.15em] text-navy mb-2">Nombres *</label>
-                                <input type="text" id="nombres" required placeholder="Carlos" 
-                                       class="w-full bg-cream-soft border border-navy/10 rounded-lg px-4 py-3 text-navy text-sm focus:outline-none focus:border-navy transition-all">
+                                <label for="nombres"
+                                    class="block text-[11px] font-bold uppercase tracking-[0.15em] text-navy mb-2">Nombres
+                                    *</label>
+                                <input type="text" id="nombres" required placeholder="Carlos"
+                                    class="w-full bg-cream-soft border border-navy/10 rounded-lg px-4 py-3 text-navy text-sm focus:outline-none focus:border-navy transition-all">
                             </div>
 
                             <div>
-                                <label for="apellidos" class="block text-[11px] font-bold uppercase tracking-[0.15em] text-navy mb-2">Apellidos *</label>
-                                <input type="text" id="apellidos" required placeholder="Mendoza" 
-                                       class="w-full bg-cream-soft border border-navy/10 rounded-lg px-4 py-3 text-navy text-sm focus:outline-none focus:border-navy transition-all">
+                                <label for="apellidos"
+                                    class="block text-[11px] font-bold uppercase tracking-[0.15em] text-navy mb-2">Apellidos
+                                    *</label>
+                                <input type="text" id="apellidos" required placeholder="Mendoza"
+                                    class="w-full bg-cream-soft border border-navy/10 rounded-lg px-4 py-3 text-navy text-sm focus:outline-none focus:border-navy transition-all">
                             </div>
                         </div>
 
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                             <div>
-                                <label for="email" class="block text-[11px] font-bold uppercase tracking-[0.15em] text-navy mb-2">Email *</label>
-                                <input type="email" id="email" required placeholder="carlos@ejemplo.com" 
-                                       class="w-full bg-cream-soft border border-navy/10 rounded-lg px-4 py-3 text-navy text-sm focus:outline-none focus:border-navy transition-all">
+                                <label for="email"
+                                    class="block text-[11px] font-bold uppercase tracking-[0.15em] text-navy mb-2">Email
+                                    *</label>
+                                <input type="email" id="email" required placeholder="carlos@ejemplo.com"
+                                    class="w-full bg-cream-soft border border-navy/10 rounded-lg px-4 py-3 text-navy text-sm focus:outline-none focus:border-navy transition-all">
                             </div>
 
                             <div>
-                                <label for="telefono" class="block text-[11px] font-bold uppercase tracking-[0.15em] text-navy mb-2">Teléfono / WhatsApp *</label>
-                                <input type="tel" id="telefono" required placeholder="938389931" 
-                                       class="w-full bg-cream-soft border border-navy/10 rounded-lg px-4 py-3 text-navy text-sm focus:outline-none focus:border-navy transition-all">
+                                <label for="telefono"
+                                    class="block text-[11px] font-bold uppercase tracking-[0.15em] text-navy mb-2">Teléfono
+                                    / WhatsApp *</label>
+                                <input type="tel" id="telefono" required placeholder="938389931"
+                                    class="w-full bg-cream-soft border border-navy/10 rounded-lg px-4 py-3 text-navy text-sm focus:outline-none focus:border-navy transition-all">
                             </div>
                         </div>
 
                         <div>
-                            <label for="dpto-select" class="block text-[11px] font-bold uppercase tracking-[0.15em] text-navy mb-2">
+                            <label for="dpto-select"
+                                class="block text-[11px] font-bold uppercase tracking-[0.15em] text-navy mb-2">
                                 Departamento de Interés (Edificio Ema — San Borja)
                             </label>
-                            <select id="dpto-select" class="w-full bg-cream-soft border border-navy/10 rounded-lg px-4 py-3 text-navy text-sm focus:outline-none focus:border-navy transition-all">
-                                <option value="Dpto 101 - Garden Residence (185m2)">Dpto 101 - Garden Residence (185m² total)</option>
-                                <option value="Dpto 102 - Duplex Boutique (160m2)">Dpto 102 - Duplex Boutique (160m² total)</option>
-                                <option value="Dpto 201 - Flat Vista Exterior (128m2)">Dpto 201 - Flat Vista Exterior (128m² total)</option>
-                                <option value="Dpto 202 - Flat Vista Interna (125m2)">Dpto 202 - Flat Vista Interna (125m² total)</option>
-                                <option value="Dpto 301 - Flat Vista Exterior (128m2)">Dpto 301 - Flat Vista Exterior (128m² total)</option>
-                                <option value="Dpto 302 - Flat Vista Interna (125m2)">Dpto 302 - Flat Vista Interna (125m² total)</option>
-                                <option value="Dpto 401 - Flat Vista Exterior (128m2)">Dpto 401 - Flat Vista Exterior (128m² total)</option>
-                                <option value="Dpto 402 - Flat Vista Interna (125m2)">Dpto 402 - Flat Vista Interna (125m² total)</option>
-                                <option value="Dpto 501 - Penthouse Duplex Top (240m2)">Dpto 501 - Penthouse Duplex Top (240m² total)</option>
-                                <option value="Dpto 502 - Penthouse Duplex Top (235m2)">Dpto 502 - Penthouse Duplex Top (235m² total)</option>
+                            <select id="dpto-select"
+                                class="w-full bg-cream-soft border border-navy/10 rounded-lg px-4 py-3 text-navy text-sm focus:outline-none focus:border-navy transition-all">
+                                <option value="Dpto 101 - Garden Residence (185m2)">Dpto 101 - Garden Residence (185m²
+                                    total)</option>
+                                <option value="Dpto 102 - Duplex Boutique (160m2)">Dpto 102 - Duplex Boutique (160m²
+                                    total)</option>
+                                <option value="Dpto 201 - Flat Vista Exterior (128m2)">Dpto 201 - Flat Vista Exterior
+                                    (128m² total)</option>
+                                <option value="Dpto 202 - Flat Vista Interna (125m2)">Dpto 202 - Flat Vista Interna
+                                    (125m² total)</option>
+                                <option value="Dpto 301 - Flat Vista Exterior (128m2)">Dpto 301 - Flat Vista Exterior
+                                    (128m² total)</option>
+                                <option value="Dpto 302 - Flat Vista Interna (125m2)">Dpto 302 - Flat Vista Interna
+                                    (125m² total)</option>
+                                <option value="Dpto 401 - Flat Vista Exterior (128m2)">Dpto 401 - Flat Vista Exterior
+                                    (128m² total)</option>
+                                <option value="Dpto 402 - Flat Vista Interna (125m2)">Dpto 402 - Flat Vista Interna
+                                    (125m² total)</option>
+                                <option value="Dpto 501 - Penthouse Duplex Top (240m2)">Dpto 501 - Penthouse Duplex Top
+                                    (240m² total)</option>
+                                <option value="Dpto 502 - Penthouse Duplex Top (235m2)">Dpto 502 - Penthouse Duplex Top
+                                    (235m² total)</option>
                             </select>
                         </div>
 
                         <div>
-                            <label for="mensaje" class="block text-[11px] font-bold uppercase tracking-[0.15em] text-navy mb-2">Consulta</label>
-                            <textarea id="mensaje" rows="4" placeholder="Deseo recibir la brochure en PDF y agendar una llamada..." 
-                                      class="w-full bg-cream-soft border border-navy/10 rounded-lg px-4 py-3 text-navy text-sm focus:outline-none focus:border-navy transition-all"></textarea>
+                            <label for="mensaje"
+                                class="block text-[11px] font-bold uppercase tracking-[0.15em] text-navy mb-2">Consulta</label>
+                            <textarea id="mensaje" rows="4"
+                                placeholder="Deseo recibir la brochure en PDF y agendar una llamada..."
+                                class="w-full bg-cream-soft border border-navy/10 rounded-lg px-4 py-3 text-navy text-sm focus:outline-none focus:border-navy transition-all"></textarea>
                         </div>
 
                         <div>
-                            <button type="submit" id="submit-btn" class="w-full py-4 rounded-full bg-navy hover:bg-navy-light text-cream text-xs font-semibold uppercase tracking-[0.2em] shadow-lg transition-all duration-300">
+                            <button type="submit" id="submit-btn"
+                                class="w-full py-4 rounded-full bg-navy hover:bg-navy-light text-cream text-xs font-semibold uppercase tracking-[0.2em] shadow-lg transition-all duration-300">
                                 Solicitar Cotización
                             </button>
                         </div>
 
-                        <div id="form-response" class="hidden p-4 rounded-lg bg-emerald-50 text-emerald-800 text-xs text-center border border-emerald-200">
+                        <div id="form-response"
+                            class="hidden p-4 rounded-lg bg-emerald-50 text-emerald-800 text-xs text-center border border-emerald-200">
                         </div>
 
                     </form>
                 </div>
 
-                <!-- SALES ADVISOR CARD (OSWALDO SALAZAR) -->
-                <div class="lg:col-span-5 space-y-8">
-                    
-                    <div class="bg-navy text-cream p-8 sm:p-10 rounded-2xl border border-navy-light relative shadow-xl">
-                        <span class="text-[10px] text-gold font-bold uppercase tracking-[0.2em] block mb-6">
-                            Atención Personalizada
-                        </span>
-
-                        <div class="flex items-center gap-5 mb-6">
-                            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=200&q=80" 
-                                 alt="Oswaldo Salazar Asesor de Ventas" 
-                                 class="w-16 h-16 rounded-full object-cover border-2 border-gold"
-                                 onerror="this.onerror=null; this.src='https://placehold.co/150x150/1B2A4A/FFFFFF?text=OS';">
-
-                            <div>
-                                <h3 class="text-xl font-serif text-cream font-medium">Oswaldo</h3>
-                                <p class="text-xs text-gold uppercase tracking-wider mt-0.5">Asesor Comercial Senior</p>
-                                <p class="text-[11px] text-cream/70 mt-1">Buena Vista Inmobiliaria</p>
-                            </div>
-                        </div>
-
-                        <div class="bg-navy-dark p-4 rounded-xl border border-cream/10 mb-6 flex items-center justify-between">
-                            <div>
-                                <span class="text-[9px] uppercase tracking-wider text-cream/50 block">Teléfono / WhatsApp</span>
-                                <a href="tel:938389931" class="text-xl font-serif text-gold hover:underline">938 389 931</a>
-                            </div>
-                            <i class="fa-solid fa-phone text-gold text-lg"></i>
-                        </div>
-
-                        <div class="grid grid-cols-2 gap-3">
-                            <a href="https://wa.me/51938389931?text=Hola%20Oswaldo,%20deseo%20mayor%20informaci%C3%B3n%20del%20Edificio%20Ema%20en%20San%20Borja" 
-                               target="_blank" rel="noopener noreferrer"
-                               class="py-3 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-xs uppercase tracking-wider text-center flex items-center justify-center gap-2 transition-all shadow-md">
-                                <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp
-                            </a>
-                            <a href="tel:938389931" 
-                               class="py-3 rounded-full border border-cream/20 hover:border-cream text-cream font-semibold text-xs uppercase tracking-wider text-center flex items-center justify-center gap-2 transition-all">
-                                <i class="fa-solid fa-phone text-xs"></i> Llamar
-                            </a>
+                <!-- Office Info (no box) -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-xs text-navy/70">
+                    <div class="flex items-start gap-3">
+                        <i class="fa-solid fa-location-dot text-navy mt-0.5"></i>
+                        <div>
+                            <span class="font-semibold text-navy uppercase tracking-wider block text-[10px]">Ubicación
+                                del Proyecto</span>
+                            <span>Av. Buena Vista 336 - 338, Chacarilla del Estanque, San Borja, Lima</span>
                         </div>
                     </div>
-
-                    <!-- Office Info Box -->
-                    <div class="bg-cream-card p-6 rounded-xl border border-navy/10 text-xs text-navy/70 space-y-3">
-                        <div class="flex items-start gap-3">
-                            <i class="fa-solid fa-location-dot text-navy mt-0.5"></i>
-                            <div>
-                                <span class="font-semibold text-navy uppercase tracking-wider block text-[10px]">Ubicación del Proyecto</span>
-                                <span>Av. Buena Vista 336 - 338, Chacarilla del Estanque, San Borja, Lima</span>
-                            </div>
-                        </div>
-                        <div class="flex items-start gap-3 pt-2 border-t border-navy/10">
-                            <i class="fa-solid fa-clock text-navy mt-0.5"></i>
-                            <div>
-                                <span class="font-semibold text-navy uppercase tracking-wider block text-[10px]">Atención Presencial & Virtual</span>
-                                <span>Lunes a Sábado: 9:00 am - 6:00 pm (Previa Cita)</span>
-                            </div>
+                    <div class="flex items-start gap-3">
+                        <i class="fa-solid fa-clock text-navy mt-0.5"></i>
+                        <div>
+                            <span class="font-semibold text-navy uppercase tracking-wider block text-[10px]">Atención
+                                Presencial & Virtual</span>
+                            <span>Lunes a Sábado: 9:00 am - 6:00 pm (Previa Cita)</span>
                         </div>
                     </div>
-
                 </div>
 
             </div>
@@ -631,8 +685,9 @@
 
     <!-- FOOTER -->
     <footer class="bg-navy text-cream/70 py-12 border-t border-navy-light">
-        <div class="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col sm:flex-row items-center justify-between gap-6 text-xs font-light">
-            
+        <div
+            class="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col sm:flex-row items-center justify-between gap-6 text-xs font-light">
+
             <div class="flex items-center gap-3">
                 <div class="bg-cream p-1.5 rounded">
                     <img src="logo.png" alt="Buena Vista Inmobiliaria" class="h-9 w-9 object-contain">
@@ -640,7 +695,8 @@
                 <span class="text-[10px] text-cream/50 uppercase tracking-widest">Inmobiliaria • Lima</span>
             </div>
 
-            <p class="text-center sm:text-left">© 2026 Buena Vista Inmobiliaria S.A.C. Todos los derechos reservados.</p>
+            <p class="text-center sm:text-left">© 2026 Buena Vista Inmobiliaria S.A.C. Todos los derechos reservados.
+            </p>
 
             <div class="flex space-x-6 text-[10px] uppercase tracking-wider">
                 <a href="#manifiesto" class="hover:text-gold transition-colors">Manifiesto</a>
@@ -653,19 +709,20 @@
     <!-- PERSISTENT FLOATING STICKY CONTACT BUTTON -->
     <div class="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-3">
         <!-- Direct WhatsApp Float -->
-        <a href="https://wa.me/51938389931?text=Hola,%20deseo%20cotizar%20un%20departamento%20en%20el%20Edificio%20Ema%20de%20San%20Borja" 
-           target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp"
-           class="w-12 h-12 rounded-full bg-emerald-500 text-white shadow-2xl flex items-center justify-center text-xl hover:scale-110 transition-transform">
+        <a href="https://wa.me/51938389931?text=Hola,%20deseo%20cotizar%20un%20departamento%20en%20el%20Edificio%20Ema%20de%20San%20Borja"
+            target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp"
+            class="w-12 h-12 rounded-full bg-emerald-500 text-white shadow-2xl flex items-center justify-center text-xl hover:scale-110 transition-transform">
             <i class="fa-brands fa-whatsapp"></i>
         </a>
 
         <!-- Continuous Floating CONTACTAR Button -->
-        <a href="#contacto" 
-           class="px-6 py-3.5 rounded-full bg-navy text-cream font-medium text-xs uppercase tracking-[0.2em] shadow-2xl border border-gold/30 flex items-center gap-3 animate-subtle-float hover:bg-navy-light transition-all">
+        <a href="#contacto"
+            class="px-6 py-3.5 rounded-full bg-navy text-cream font-medium text-xs uppercase tracking-[0.2em] shadow-2xl border border-gold/30 flex items-center gap-3 animate-subtle-float hover:bg-navy-light transition-all">
             <span class="w-2 h-2 rounded-full bg-gold animate-ping"></span>
             <span>CONTACTAR</span>
         </a>
     </div>
 
 </body>
+
 </html>
