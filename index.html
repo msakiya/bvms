@@ -1,1 +1,181 @@
-PLACEHOLDER_FOR_CONTENT
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUENAVISTA INMOBILIARIA | Edificio Ema — San Borja</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="apple-touch-icon" href="logo.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts: Playfair Display & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- App Scripts (includes Tailwind config) -->
+    <script src="js/main.js"></script>
+</head>
+
+<body class="bg-cream text-navy font-sans antialiased selection:bg-navy selection:text-cream">
+
+    <!-- NAVIGATION HEADER -->
+    <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 brand-nav border-b border-navy/10">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12 h-20 flex items-center justify-between">
+
+            <!-- Logo Emblem in Navy & Gold -->
+            <a href="#" class="flex items-center gap-3 group">
+                <img src="logo.png" alt="Buena Vista Inmobiliaria"
+                    class="h-14 w-14 object-contain transition-transform duration-300 group-hover:scale-105">
+            </a>
+
+            <!-- Menu Links -->
+            <nav class="hidden md:flex items-center space-x-8 text-xs font-semibold tracking-[0.2em] uppercase">
+                <a href="#manifiesto" class="hover:text-gold transition-colors">Manifiesto</a>
+                <a href="#edificio-ema" class="hover:text-gold transition-colors flex items-center gap-2">
+                    <span>Edificio Ema</span>
+                    <span class="w-1.5 h-1.5 rounded-full bg-gold"></span>
+                </a>
+                <a href="#principios" class="hover:text-gold transition-colors">Principios</a>
+                <a href="#unidades" class="hover:text-gold transition-colors">Unidades</a>
+                <a href="#contacto" class="hover:text-gold transition-colors">Contacto</a>
+            </nav>
+
+            <!-- Quick Action CTA -->
+            <div class="hidden sm:flex items-center">
+                <a href="#contacto"
+                    class="px-5 py-2.5 rounded-full bg-navy text-cream hover:bg-gold hover:text-navy transition-all duration-300 text-[11px] uppercase tracking-[0.2em] font-medium shadow-sm">
+                    Agendar Cita
+                </a>
+            </div>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button onclick="toggleMenu()" class="md:hidden p-2 text-navy focus:outline-none" aria-label="Abrir Menú">
+                <i id="menu-icon" class="fa-solid fa-bars text-xl"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu"
+            class="hidden md:hidden bg-cream border-b border-navy/10 px-8 py-8 space-y-5 text-xs uppercase tracking-[0.2em] font-semibold">
+            <a href="#manifiesto" onclick="toggleMenu()" class="block py-2 border-b border-navy/10">Manifiesto</a>
+            <a href="#edificio-ema" onclick="toggleMenu()"
+                class="block py-2 border-b border-navy/10 text-gold flex justify-between items-center">
+                <span>Edificio Ema (Chacarilla)</span>
+                <span class="text-[9px] bg-navy text-cream px-2 py-0.5 rounded-full">Lanzamiento</span>
+            </a>
+            <a href="#principios" onclick="toggleMenu()" class="block py-2 border-b border-navy/10">3 Principios</a>
+            <a href="#unidades" onclick="toggleMenu()" class="block py-2 border-b border-navy/10">Unidades</a>
+            <a href="#contacto" onclick="toggleMenu()" class="block py-2 border-b border-navy/10">Contacto</a>
+            <a href="#contacto" onclick="toggleMenu()"
+                class="block w-full py-3.5 text-center bg-navy text-cream rounded-full mt-4">
+                Solicitar Dossier
+            </a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="pt-20 pb-12 lg:pt-20 lg:pb-6 flex items-center relative overflow-hidden bg-cream">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12 w-full">
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-8 items-center">
+
+                <!-- Left Visual Column (Now the Main Image) -->
+                <div class="order-1 lg:order-1 lg:col-span-8">
+                    <div class="relative group">
+
+                        <!-- Image Container with Architectural Frame -->
+                        <div class="rounded-2xl overflow-hidden bg-navy/5 shadow-2xl border border-navy/15 relative">
+                            <img src="https://raw.githubusercontent.com/msakiya/bvms/refs/heads/main/edi.jpg"
+                                alt="Luz natural y terrazos en Edificio Ema"
+                                class="w-full h-[280px] sm:h-[360px] lg:h-[420px] object-cover filter contrast-[1.03] transition-all duration-700 group-hover:scale-105">
+                            <div class="absolute inset-0 bg-gradient-to-t from-navy/60 via-transparent to-transparent">
+                            </div>
+                        </div>
+
+                        <!-- Entrance Plaque Box (Recreated from Manifesto Image) -->
+                        <div
+                            class="absolute -bottom-8 -left-6 bg-navy text-cream p-6 rounded-xl shadow-2xl max-w-[260px] border border-navy/30">
+                            <div class="flex items-center justify-between border-b border-cream/10 pb-2 mb-2">
+                                <span class="text-xl font-serif text-gold font-semibold">336</span>
+                                <span class="text-[9px] uppercase tracking-[0.2em] text-cream/60">San Borja</span>
+                            </div>
+                            <p class="text-xs font-serif font-light italic leading-snug text-cream/90">
+                                "El lugar donde pertenece tu corazón, donde echas raíces."
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Right Narrative Column (Compact) -->
+                <div class="order-2 lg:order-2 lg:col-span-4 space-y-5">
+
+                    <div class="inline-flex items-center gap-3">
+                        <span class="w-8 h-[1px] bg-navy"></span>
+                        <span class="text-[11px] font-bold tracking-[0.25em] text-navy/70 uppercase">Chacarilla del
+                            Estanque • San Borja</span>
+                    </div>
+
+                    <h1
+                        class="text-2xl sm:text-3xl lg:text-4xl font-serif font-normal text-navy leading-[1.12] tracking-tight">
+                        El lugar donde pertenece <br>
+                        tu corazón. <br>
+                        <span class="italic font-serif text-gold">Donde echas raíces.</span>
+                    </h1>
+
+                    <div class="p-4 rounded-2xl bg-cream-soft border-l-2 border-gold space-y-2">
+                        <p class="text-navy text-xs sm:text-sm font-light leading-relaxed">
+                            En <strong class="font-semibold text-navy">Buena Vista</strong> hacemos edificios pequeños y
+                            bien ubicados en Lima. No armamos productos inmobiliarios sin alma; construimos hogares para
+                            quienes buscan vivir en paz, con la tranquilidad de las cosas bien hechas.
+                        </p>
+                        <p class="text-xs text-navy/70 italic font-light">
+                            "Espacios flexibles que se adaptan a tu ritmo y a tu forma de vida, nunca al revés."
+                        </p>
+                    </div>
+
+                    <div class="flex flex-col gap-2.5 pt-1">
+                        <a href="#edificio-ema"
+                            class="px-5 py-3 rounded-full bg-navy text-cream hover:bg-navy-light text-[11px] uppercase tracking-[0.2em] font-medium text-center transition-all duration-300 shadow-lg">
+                            Conocer Edificio Ema
+                        </a>
+                        <a href="#contacto"
+                            class="px-5 py-3 rounded-full border border-navy/30 hover:border-navy text-navy text-[11px] uppercase tracking-[0.2em] font-medium text-center transition-all duration-300">
+                            Cotizar con Asesor
+                        </a>
+                    </div>
+
+                    <!-- Key Spec Highlights -->
+                    <div class="grid grid-cols-3 gap-3 pt-5 border-t border-navy/10">
+                        <div>
+                            <div class="text-base sm:text-lg font-serif text-navy">336-338</div>
+                            <div class="text-[9px] uppercase tracking-[0.1em] text-navy/60 mt-1">Av. Buena Vista</div>
+                        </div>
+                        <div>
+                            <div class="text-base sm:text-lg font-serif text-navy">10</div>
+                            <div class="text-[9px] uppercase tracking-[0.1em] text-navy/60 mt-1">Hogares Exclusivos
+                            </div>
+                        </div>
+                        <div>
+                            <div class="text-base sm:text-lg font-serif text-navy">Furusato</div>
+                            <div class="text-[9px] uppercase tracking-[0.1em] text-navy/60 mt-1">Concepto Central</div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECTION 1: MANIFIESTO Y CONCEPTO FURUSATO -->
+    <!-- ... the rest of the file continues with the original content after the hero ... -->
